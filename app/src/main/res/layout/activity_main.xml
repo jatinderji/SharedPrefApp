@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="20sp"
+        android:src="@mipmap/gonow"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <CheckBox
+        android:layout_marginTop="10sp"
+        android:id="@+id/rem"
+        android:text="Remember Me?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_margin="20sp"
+        android:id="@+id/btnGo"
+        android:text="Go Now"
+        android:background="#1BA8EF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
